@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "PowerShell(cd \"E:\\\\DEV-NOVO\\\\remotion\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'E:\\\\DEV-NOVO\\\\remotion'; .\\\\node_modules\\\\.bin\\\\remotion studio\" -WindowStyle Normal; Write-Host \"Janela aberta\")"
+    ]
+  }
+}
